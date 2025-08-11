@@ -32,7 +32,7 @@ utils::json::get_value(utils::json::globObj, "key", value, true);
 
 if you are using a delimiter(.) , use `utils::json::get_section_key("SECTION", "KEY")`
 
-- simple write file function
+# Simple write file function
 ```c
 inline bool write_file(std::string path, void* data, int32_t size)
 {
